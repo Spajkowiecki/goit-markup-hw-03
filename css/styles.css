@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   /* FONT USED ON PAGE */
   /*
@@ -18,25 +24,45 @@
   --main-text-color: #757575;
   --main-link-color: #2196f3;
   --white-text: white;
+  --header-bg: #2f303a;
+  --team-bg: #f5f4fa;
   /*   END OF COLORS USED ON PAGE      */
 }
 
 body {
+  width: 1600px;
   font-family: var(--main-font);
   color: var(--main-text-color);
 }
+/* GŁÓWNY KONTENER */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* GŁÓWNY KONTENER NAVBAROWY */
 .menu-container {
+  width: 1600px;
   font-size: 14px;
   display: flex;
   align-items: center;
   stroke: #ececec;
 }
 
+.menu-contact {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
+  margin-right: 227px;
+}
+
 /** | GÓRNY PASEK | **/
 /* STYLIZUJE LOGO TEKSTOWE W PASKU GÓRNYM */
 .menu-text-logo {
+  margin: 0;
   font-family: var(--primary-font);
+  margin-left: 215px;
   font-weight: 700;
   text-align: left;
   letter-spacing: 3%;
@@ -56,8 +82,12 @@ body {
 /* POCZĄTEK: STYLIZACJA NAVBARU */
 
 .nav-core {
+  text-align: left;
   padding: 0;
   list-style: none;
+  display: flex;
+  margin-left: 93px;
+  gap: 46px;
 }
 
 .core-link {
@@ -69,12 +99,30 @@ body {
   color: var(--main-link-color);
 }
 
+.menu-header {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: var(--header-bg);
+  width: 1600px;
+}
+
 .menu-header h1 {
+  margin: 0;
+  width: 700px;
   font-size: 44px;
   text-align: center;
 }
 
 .menu-header button {
+  background-color: var(--main-link-color);
+  color: var(--white-text);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-color: var(--main-link-color);
   font-size: 16px;
   line-height: 30px;
   font-family: var(--main-font);
@@ -107,7 +155,9 @@ body {
 }
 
 .post-skill-list {
+  padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .team-list {
@@ -147,4 +197,74 @@ body {
 .things-card-desc p {
   font-size: 16px;
   line-height: 30px;
+}
+
+.done-list {
+  list-style: none;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.team {
+  justify-content: center;
+  background-color: #f5f4fa;
+  width: 1600px;
+}
+
+.team-list-person {
+  margin: 0;
+}
+
+.background-footer {
+  background-color: var(--header-bg);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  height: 252px;
+}
+
+.menu-text-logo-nav {
+  margin: 0;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 3%;
+  font-size: 26px;
+  line-height: auto;
+  margin-bottom: 20px;
+}
+
+.menu-text-logo-nav a {
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.menu-text-logo-nav span {
+  color: var(--main-link-color);
+}
+
+.what-we-do {
+  display: flex;
+  gap: 30px;
+}
+
+.adresowka {
+  color: white;
 }

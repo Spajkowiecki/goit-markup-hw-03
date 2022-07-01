@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Studio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,6 +17,7 @@
 </head>
 
 <body>
+
     <!-- NAGŁÓWEK STRONY-->
     <header>
         <div class="menu-container">
@@ -33,55 +36,65 @@
             </div>
         </div>
         <div class="menu-header">
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button>Zamów usługę</button>
+            <div>
+                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <button>Zamów usługę</button>
+            </div>
         </div>
     </header>
     <!-- GŁÓWNA ZAWARTOŚĆ STRONY-->
     <main>
-        <div id="nasze_atuty">
+
+        <section id="nasze_atuty" class="container">
             <!-- KONTENER PRZECHOWUJĄCY NASZE ATUTY-->
             <h2 class="section-title">Nasze atuty</h2>
             <ul class="post-skill-list">
                 <li>
                     <div class="post-skills">
                         <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </div>
                 </li>
                 <li>
                     <div class="post-skills">
                         <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </div>
                 </li>
                 <li>
                     <div class="post-skills">
                         <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </div>
                 </li>
                 <li>
                     <div class="post-skills">
                         <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
+                            sodales
                             dui. Interdum et malesuada</p>
                     </div>
                 </li>
             </ul>
-        </div>
-        <div id="Czym_się_zajmujemy">
+        </section>
+        <section id="Czym_się_zajmujemy" class="section container">
             <h2 class="section-title">Czym się zajmujemy</h2>
-            <img src="images/i1.jpg" width="370" height="294" alt="programuje strony" />
-            <img src="images/i2.jpg" width="370" height="294" alt="sprawdza wyglad na innych urządzeniach" />
-            <img src="images/i3.jpg" width="370" height="294" alt="szuka kolorów" />
-        </div>
-        <div id="nasz_zespol">
+            <div class="what-we-do">
+                <img src="images/i1.jpg" width="370" height="294" alt="programuje strony" />
+                <img src="images/i2.jpg" width="370" height="294" alt="sprawdza wyglad na innych urządzeniach" />
+                <img src="images/i3.jpg" width="370" height="294" alt="szuka kolorów" />
+            </div>
+        </section>
+
+        <section id="nasz-zespol" class="team section">
             <h2 class="section-title">Nasz zespół</h2>
-            <ul class="team-list">
+            <ul class="team-list container">
                 <li>
                     <figure class="team-list-person">
                         <img src="images/j1.jpg" width="270" height="260" alt="John Doe" />
@@ -119,15 +132,23 @@
                     </figure>
                 </li>
             </ul>
-        </div>
+        </section>
+
     </main>
     <!-- STOPKA STRONY-->
     <footer>
-        <H2 class="menu-text-logo"><a href="index.html"><span>Web</span>Studio</a></H2>
-        <div>
-            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a class="core-link" href="mailto:info@example.com">info@example.com</a>
-            <a class="core-link" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="background-footer">
+            <div class="footer-content">
+                <div class="container">
+                    <H2 class="menu-text-logo-nav"><a href="index.html"><span>Web</span>Studio</a></H2>
+
+                    <address class="adresowka">m. Warszawa, Aleje Jerozolimskie 21</address>
+                    <div><a class="core-link" style="color: rgba(255,255,255, 0.6)"
+                            href="mailto:info@example.com">info@example.com</a></div>
+                    <div><a class="core-link" style="color: rgba(255,255,255, 0.6)" href="tel:+48111111111">+48 111 111
+                            111</a></div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
