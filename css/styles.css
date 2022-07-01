@@ -1,0 +1,150 @@
+:root {
+  /* FONT USED ON PAGE */
+  /*
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+  
+  */
+  --main-font: "Roboto", sans-serif;
+  --primary-font: "Raleway", sans-serif;
+  /*   END OF FONTS ON PAGE            */
+  /*   COLORS USED ON PAGE             */
+  --logo-color: #000000;
+  --main-normal-text-color: #212121;
+  --main-text-color: #757575;
+  --main-link-color: #2196f3;
+  --white-text: white;
+  /*   END OF COLORS USED ON PAGE      */
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+}
+/* GŁÓWNY KONTENER NAVBAROWY */
+.menu-container {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  stroke: #ececec;
+}
+
+/** | GÓRNY PASEK | **/
+/* STYLIZUJE LOGO TEKSTOWE W PASKU GÓRNYM */
+.menu-text-logo {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 3%;
+  font-size: 26px;
+  line-height: auto;
+}
+
+.menu-text-logo a {
+  text-decoration: none;
+  color: var(--logo-color);
+}
+
+.menu-text-logo span {
+  color: var(--main-link-color);
+}
+/* KONIEC STYLIZACJI LOGO W PASKU*/
+/* POCZĄTEK: STYLIZACJA NAVBARU */
+
+.nav-core {
+  padding: 0;
+  list-style: none;
+}
+
+.core-link {
+  text-decoration: none;
+  color: var(--main-normal-text-color);
+}
+
+.core-link:hover {
+  color: var(--main-link-color);
+}
+
+.menu-header h1 {
+  font-size: 44px;
+  text-align: center;
+}
+
+.menu-header button {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--main-font);
+  font-weight: 700;
+  cursor: pointer;
+}
+/* KONIEC: STYLIZACJA NAVBARU */
+/** | KONIEC GÓRNEGO PASKA | **/
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-normal-text-color);
+}
+
+.post-skills {
+  height: 75px;
+  width: 270px;
+  font-size: 14px;
+}
+
+.post-skills h3 {
+  font-size: 14px;
+  line-height: auto;
+}
+
+.post-skills p {
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.post-skill-list {
+  list-style: none;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-list-person-description {
+  font-size: 16px;
+}
+
+.team-list-person-description h4 {
+  color: #212121;
+  font-weight: 500;
+}
+
+/*PORTFOLIO.HTML STYLES*/
+
+.things-filter-list {
+  list-style: none;
+}
+
+.things-filter-list button {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.things-card-desc h3 {
+  color: var(--main-normal-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.things-card-desc p {
+  font-size: 16px;
+  line-height: 30px;
+}
