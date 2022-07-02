@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Studio</title>
+    <title>WebStudio</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,37 +20,35 @@
 
     <!-- NAGŁÓWEK STRONY-->
     <header>
-        <div class="menu-container">
-            <H2 class="menu-text-logo"><a href="index.html"><span>Web</span>Studio</a></H2>
-            <nav class="navbar">
-                <!-- KONTENER NAV -->
-                <ul class="nav-core">
-                    <li><a class="core-link" href="agencja.html">Agencja</a></li>
-                    <li><a class="core-link" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="core-link" href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div class="menu-contact">
-                <a class="core-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="core-link" href="tel:+48111111111">+48 111 111 111</a>
-            </div>
-        </div>
-        <div class="menu-header">
+        <div class="navi-background container">
             <div>
-                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button>Zamów usługę</button>
+
+                <nav class="navigator">
+                    <a class="logo-link" href="index.html"><span>Web</span>Studio</a>
+                    <ul class="navigation-list">
+                        <li><a class="primary-link" href="agencja.html">Agencja</a></li>
+                        <li><a class="primary-link" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="primary-link" href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                    <ul class="social-links">
+                        <li><a class="primary-link" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="primary-link" href="tel: +48 111 111 111">+48 111 111 111</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
     <!-- GŁÓWNA ZAWARTOŚĆ STRONY-->
     <main>
-
-        <section id="nasze_atuty" class="container">
+        <div class="solutions">
+            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button>Zamów usługę</button>
+        </div>
+        <section class="advantages section container">
             <!-- KONTENER PRZECHOWUJĄCY NASZE ATUTY-->
-            <h2 class="section-title">Nasze atuty</h2>
-            <ul class="post-skill-list">
+            <ul class="section-list">
                 <li>
-                    <div class="post-skills">
+                    <div class="section-skill-post">
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                             sodales
@@ -58,7 +56,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="post-skills">
+                    <div class="section-skill-post">
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                             sodales
@@ -66,7 +64,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="post-skills">
+                    <div class="section-skill-post">
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                             sodales
@@ -74,7 +72,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="post-skills">
+                    <div class="section-skill-post">
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                             sodales
@@ -83,51 +81,60 @@
                 </li>
             </ul>
         </section>
-        <section id="Czym_się_zajmujemy" class="section container">
+        <section id="Czym_się_zajmujemy" class="what-we-do container section">
             <h2 class="section-title">Czym się zajmujemy</h2>
-            <div class="what-we-do">
-                <img src="images/i1.jpg" width="370" height="294" alt="programuje strony" />
-                <img src="images/i2.jpg" width="370" height="294" alt="sprawdza wyglad na innych urządzeniach" />
-                <img src="images/i3.jpg" width="370" height="294" alt="szuka kolorów" />
+            <div>
+                <ul class="whatwedo-list">
+                    <li>
+                        <img src="images/i1.jpg" width="370" height="294" alt="programuje strony" />
+                    </li>
+                    <li>
+                        <img src="images/i2.jpg" width="370" height="294"
+                            alt="sprawdza wyglad na innych urządzeniach" />
+                    </li>
+                    <li>
+                        <img src="images/i3.jpg" width="370" height="294" alt="szuka kolorów" />
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section id="nasz-zespol" class="team section">
-            <h2 class="section-title">Nasz zespół</h2>
-            <ul class="team-list container">
+        <section id="our-team" class="teammates section ">
+            <h2>Nasz zespół</h2>
+            <ul class="teammate-list container">
                 <li>
-                    <figure class="team-list-person">
+                    <figure class="teammate-data">
                         <img src="images/j1.jpg" width="270" height="260" alt="John Doe" />
-                        <figcaption class="team-list-person-description">
+                        <figcaption class="teammate-desc">
                             <h4>John Doe</h4>
                             <p>Product Designer</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
-                    <figure class="team-list-person">
-                        <img src="images/j2.jpg" width="270" height="260" alt="Kobieta - Programista Frontendu" />
-                        <figcaption class="team-list-person-description">
+                    <figure class="teammate-data">
+                        <img src="images/j2.jpg" width="270" height="260" alt="John Doe" />
+                        <figcaption class="teammate-desc">
                             <h4>John Doe</h4>
-                            <p>FrontEnd Developer</p>
+                            <p>Product Designer</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
-                    <figure class="team-list-person">
-                        <img src="images/j3.jpg" width="270" height="260" alt="John Doe - Marketingowiec" />
-                        <figcaption class="team-list-person-description">
+                    <figure class="teammate-data">
+                        <img src="images/j3.jpg" width="270" height="260" alt="John Doe" />
+                        <figcaption class="teammate-desc">
                             <h4>John Doe</h4>
-                            <p>Marketing</p>
+                            <p>Product Designer</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
-                    <figure class="team-list-person">
-                        <img src="images/j4.jpg" width="270" height="260" alt="John Doe - Designer UI" />
-                        <figcaption class="team-list-person-description">
+                    <figure class="teammate-data">
+                        <img src="images/j4.jpg" width="270" height="260" alt="John Doe" />
+                        <figcaption class="teammate-desc">
                             <h4>John Doe</h4>
-                            <p>UI Designer</p>
+                            <p>Product Designer</p>
                         </figcaption>
                     </figure>
                 </li>
@@ -137,19 +144,16 @@
     </main>
     <!-- STOPKA STRONY-->
     <footer>
-        <div class="background-footer">
-            <div class="footer-content">
-                <div class="container">
-                    <H2 class="menu-text-logo-nav"><a href="index.html"><span>Web</span>Studio</a></H2>
-
-                    <address class="adresowka">m. Warszawa, Aleje Jerozolimskie 21</address>
-                    <div><a class="core-link" style="color: rgba(255,255,255, 0.6)"
-                            href="mailto:info@example.com">info@example.com</a></div>
-                    <div><a class="core-link" style="color: rgba(255,255,255, 0.6)" href="tel:+48111111111">+48 111 111
-                            111</a></div>
-                </div>
+        <section class="footer-bg section">
+            <div class="footer container">
+                <a class="logo-link white" href="index.html"><span>Web</span>Studio</a>
+                <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+                <ul class="social-links-footer">
+                    <li><a class="primary-link" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="primary-link" href="tel: +48 111 111 111">+48 111 111 111</a></li>
+                </ul>
             </div>
-        </div>
+        </section>
     </footer>
 </body>
 
