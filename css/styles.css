@@ -5,6 +5,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  line-height: 1.15;
 }
 
 :root {
@@ -85,6 +86,7 @@ body {
   color: var(--logo-color);
   font-family: "Raleway";
   font-size: 26px;
+  letter-spacing: 0.03em;
   font-weight: 700;
 }
 
@@ -96,6 +98,7 @@ body {
   font-family: "Roboto";
   color: var(--main-normal-text-color);
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .social-links a {
@@ -128,11 +131,22 @@ body {
 
 .section-skill-post {
   width: 270px;
-  line-height: 1.7;
-  text-align: left;
 }
+
+.section-skill-post h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: auto;
+  letter-spacing: 0.03em;
+}
+
 .section-skill-post p {
   color: var(--main-text-color);
+  text-align: left;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /*   END OF | END OF | END OF   */
@@ -140,6 +154,7 @@ body {
 /*      SOLUTIONS  STYLING      */
 
 .solutions {
+  font-family: "Roboto";
   background-color: var(--header-bg);
   height: 600px;
   padding: 200px 452px 200px 452px;
@@ -147,9 +162,12 @@ body {
 }
 
 .solutions h1 {
+  font-family: "Roboto";
   font-size: 44px;
   color: white;
   width: 696px;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
   font-weight: 900;
   height: 120px;
 }
@@ -160,7 +178,11 @@ body {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  padding: 10px 42px 10px 41px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
   border: var(--main-link-color);
 }
 
