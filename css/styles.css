@@ -207,24 +207,97 @@ body {
 /*        FOOTER STYLING        */
 
 .footer {
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 1.74;
+  height: 252px;
+  font-weight: 400;
+  padding: 60px 0 60px 0;
 }
 
 .footer-bg {
   background-color: var(--header-bg);
-  height: 252px;
+}
+
+.footer .logo-link Span {
+  color: var(--main-link-color);
 }
 
 .footer address {
-  color: rgba(255, 255, 255, 1);
-}
-
-.white {
+  padding-top: 20px;
   color: var(--white);
 }
 
-.social-links-footer .primary-link {
+.footer .logo-link {
+  color: var(--white);
+}
+
+.footer-list .primary-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list li:nth-child(1) {
+  padding: 9px 0px 9px 0px;
+}
+
+/* -------------------------------------*/
+
+.portfolio-main {
+  background-color: var(--white);
+  padding: 94px 215px 94px 215px;
+}
+
+.portfolio-navi {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.portfolio-navi button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+
+  border-radius: 4px;
+  padding: 6px 22px 6px 22px;
+  cursor: pointer;
+  border: none;
+}
+
+.portfolio-navi button:hover,
+button:focus {
+  color: var(--white);
+  background-color: var(--main-link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.poster {
+  width: 370px;
+  font-size: 16px;
   font-weight: 400;
+}
+
+.poster img {
+  vertical-align: top;
+}
+
+.poster-description {
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #eeeeee;
+  line-height: 2;
+  background-color: var(--white);
+}
+
+.poster-description h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.poster-description p {
+  color: var(--main-text-color);
+}
+
+.poster-list {
+  padding-top: 36px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
