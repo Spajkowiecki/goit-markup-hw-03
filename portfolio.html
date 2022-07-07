@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>WebStudio</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
@@ -14,163 +13,61 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body class="center-all">
 
-    <!-- NAGŁÓWEK STRONY-->
     <header>
-        <div class="navi-background">
-            <div class="container">
-
-                <nav class="navigator">
-                    <a class="logo-link" href="index.html"><span>Web</span>Studio</a>
-                    <ul class="navigation-list">
-                        <li><a class="primary-link" href="agencja.html">Agencja</a></li>
-                        <li><a class="primary-link" href="portfolio.html">Portfolio</a></li>
-                        <li><a class="primary-link" href="kontakt.html">Kontakt</a></li>
-                    </ul>
-                    <ul class="social-links">
-                        <li><a class="primary-link" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="primary-link" href="tel: +48 111 111 111">+48 111 111 111</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div class="nav-container">
+            <a class="logo" href="index.html"><span>Web</span>Studio</a>
+            <nav class="navigation">
+                <ul class="list nav">
+                    <li><a class="nav_link" href="agencja.html">Agencja</a></li>
+                    <li><a class="nav_link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="nav_link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <ul class="list contact">
+                <li><a class="nav_link" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="nav_link" href="tel: +48 111111111">+48 111 111 111</a></li>
+            </ul>
         </div>
     </header>
-    <!-- GŁÓWNA ZAWARTOŚĆ STRONY-->
-    <main>
-
-        <section class="portfolio-main">
-            <div class="projects container">
-                <ul class="portfolio-navi">
-                    <li><button type="button">Wszystkie</button></li>
-                    <li><button type="button">Strony</button></li>
-                    <li><button type="button">Aplikacje</button></li>
-                    <li><button type="button">Dizajn</button></li>
-                    <li><button type="button">Marketing</button></li>
-                </ul>
-                <ul class="poster-list">
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f1.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Technocrack</h3>
-                                    <p>Strona internetowa</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f2.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Grafika New Orlean vs Golden Star</h3>
-                                    <p>Dizajn</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f3.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Restauracja SeaFood</h3>
-                                    <p>Aplikacja</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f4.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Projekt Prime</h3>
-                                    <p>Marketing</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f5.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Projekt Boxes</h3>
-                                    <p>Aplikacja</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f6.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Inspiration has no Borders</h3>
-                                    <p>Strona Internetowa</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f7.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Magazyn Limited Edition</h3>
-                                    <p>Dizajn</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f8.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Projekt LAB</h3>
-                                    <p>Marketing</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure class="poster">
-                            <img src="images/f9.jpg" alt="Strona internetowa">
-                            <figcaption class="poster-description">
-                                <div>
-                                    <h3>Growing Business</h3>
-                                    <p>Aplikacja</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
-
-            </div>
+    <main class="main">
+        <section class="portfolio section">
+            <ul class="list filter">
+                <li><button>Wszystko</button></li>
+                <li><button>Strony</button></li>
+                <li><button>Aplikacje</button></li>
+                <li><button>Dizajn</button></li>
+                <li><button>Marketing</button></li>
+            </ul>
+            <ul class="list">
+                <li>
+                    <figure>
+                        <img src="images/f1.jpg" width="370" height="294" alt="Strona Technocrack">
+                        <figcaption>
+                            <p></p>
+                            <p></p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
         </section>
     </main>
-    <!-- STOPKA STRONY-->
-    <footer>
-        <footer>
-            <section class="footer-bg">
-                <div class="footer container">
-                    <a class="logo-link" href="index.html"><span>Web</span>Studio</a>
-                    <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-                    <div class="footer-list">
-                        <ul>
-                            <li><a class="primary-link" href="mailto: info@devstudio.com">info@devstudio.com</a></li>
-                            <li><a class="primary-link" href="tel: +48 111 111 111">+48 111 111 111</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </footer>
+    <footer class="footer">
+        <div class="container">
+            <a class="logo-2" href="index.html"><span>Web</span>Studio</a>
+            <ul class="footer-contacts">
+                <li>
+                    <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
+                </li>
+                <li><a href="mailto: info@example.com">info@devstudio.com</a></li>
+                <li><a href="tel: +48 111111111">+48 111 111 111</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
