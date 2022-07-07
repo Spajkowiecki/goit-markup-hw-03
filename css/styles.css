@@ -101,6 +101,7 @@ body {
   align-items: center;
   height: 80px;
   padding: 24px 227px 25px 215px;
+  border: 1px solid #ececec;
 }
 
 .navigation {
