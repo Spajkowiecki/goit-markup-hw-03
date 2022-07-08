@@ -171,11 +171,16 @@ body {
   height: 50px;
   font-weight: 700;
   color: white;
+  border-radius: 4px;
   background-color: var(--link-hover-font-color);
-  border: var(--link-hover-font-color);
   align-self: center;
-  cursor: pointer;
 }
+
+.heading_bar button:hover {
+  cursor: pointer;
+  border: 1px solid var(--link-hover-font-color);
+}
+
 /* STYLIZACJA ATUTÓW */
 .list .atut_list {
   width: 270px;
