@@ -50,16 +50,16 @@ body {
 
 /* służy do ustawienia elementów w poziomie */
 
-.--flex {
+.flex-- {
   display: flex;
 }
 
-.--flex-around {
+.flex-around-- {
   display: flex;
   justify-content: space-around;
 }
 
-.--flex-between {
+.flex-between-- {
   display: flex;
   justify-content: space-between;
 }
