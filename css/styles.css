@@ -334,8 +334,37 @@ body {
 }
 
 /* FOOTER section */ /* FOOTER section */ /* FOOTER section */ /* FOOTER section */ /* FOOTER section */ /* FOOTER section */ /* FOOTER section */
-.footer-content {
+
+.footer_content {
   background-color: var(--header-bg);
+  padding-left: 30px;
+}
+
+.footer_contacts {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: calc(24 / 14);
+  gap: 9px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 252px;
+}
+
+.footer_contacts > .nav_link .footer > .nav_logo {
+  padding-bottom: 20px;
+}
+
+.footer_contacts .nav_link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer_contacts .nav_link:hover {
+  color: var(--link-hover-font-color);
 }
 
 .address {
