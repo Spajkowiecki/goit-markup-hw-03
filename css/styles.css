@@ -50,16 +50,16 @@ body {
 
 /* służy do ustawienia elementów w poziomie */
 
-.flex-- {
+.flex {
   display: flex;
 }
 
-.flex-around-- {
+.flex-around {
   display: flex;
   justify-content: space-around;
 }
 
-.flex-between-- {
+.flex-between {
   display: flex;
   justify-content: space-between;
 }
@@ -193,7 +193,7 @@ body {
   align-self: center;
 }
 
-.heading_bar > button:hover {
+.hero > button:hover {
   cursor: pointer;
   border: 1px solid var(--link-hover-font-color);
 }
