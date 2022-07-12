@@ -180,6 +180,7 @@ body {
   width: 696px;
   text-align: center;
   align-self: center;
+  padding-bottom: 30px;
 }
 
 .hero > button {
@@ -195,7 +196,6 @@ body {
 
 .hero > button:hover {
   cursor: pointer;
-  border: 1px solid var(--link-hover-font-color);
 }
 
 /* USTAWIENIE SEKCJI */ /* USTAWIENIE SEKCJI */ /* USTAWIENIE SEKCJI */ /* USTAWIENIE SEKCJI */ /* USTAWIENIE SEKCJI */
@@ -236,7 +236,7 @@ body {
 
 /* NASZ ZESPÓŁ */
 .poster {
-  background-color: var(--team-bg);
+  background-color: var(--logo-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 4px;
@@ -326,7 +326,7 @@ body {
 
 .posters {
   flex-wrap: wrap;
-  gap: 30px;
+  row-gap: 30px;
   padding-bottom: 94px;
 }
 
